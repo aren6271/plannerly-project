@@ -1,1 +1,20 @@
-d
+.nav {
+	/*Flexbox*/
+	display: flex;
+	justify-content: space-between;
+	padding-right: 32px;
+	
+	list-style: none;
+	background-color: sandybrown;
+}
+
+.main {
+	padding-top: 128px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: black;
+}
